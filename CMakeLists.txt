@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.14)
 
-project(mycode LANGUAGE CXX)
+project(mycode)
 
 set(CMAKE_CXX_COMPILE "g++")
 set(CMAKE_CXX_STANDARD 17)
