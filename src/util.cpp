@@ -31,7 +31,7 @@ int TestOut(int a, int b){
 //     return a&b;
 
 // }
-void TestOutStr(std::string s){
+void TestOutStr(std::string& s){
 
     std::cout<<"Testing string"<<std::endl;
 

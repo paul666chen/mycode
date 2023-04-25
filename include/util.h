@@ -9,6 +9,6 @@ int TestOut(int a);
 int TestOut(int a,int b);
 //int TestOut(int& a);
 //int TestOut(int& a,int& b);
-void TestOutStr(std::string s);
+void TestOutStr(std::string& s);
 
 #endif
