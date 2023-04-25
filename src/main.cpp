@@ -30,7 +30,13 @@ int main()
 {
     // 这是一个测试
     PrintLine();
+    //输出一句话
+    cout <<"my ss "<<endl;
     TestLine();
     std::cout << "这是一个测试"<<std::endl;
+    //新增一句测试
+    cout<<"new test "<<endl;
+
+
     return 0;
 }
