@@ -27,6 +27,6 @@ int main()
 {
     
     PrintLine();
-
+    TestLine();
     return 0;
 }
