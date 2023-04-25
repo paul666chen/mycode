@@ -7,8 +7,8 @@
 int TestOut();
 int TestOut(int a);
 int TestOut(int a,int b);
-int TestOut(int& a);
-int TestOut(int& a,int& b);
-std::string TestOutStr(std::string s);
+//int TestOut(int& a);
+//int TestOut(int& a,int& b);
+void TestOutStr(std::string s);
 
 #endif

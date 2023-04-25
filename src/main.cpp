@@ -21,6 +21,8 @@
  
 #include <iostream>
 #include"test.h"
+#include"util.h"
+
 using namespace std;
 
 // ----------------------------------------------------------------
@@ -36,7 +38,13 @@ int main()
     std::cout << "这是一个测试"<<std::endl;
     //新增一句测试
     cout<<"new test "<<endl;
+    TestOut();
+    int a=9;
+    int b=8;
+    string str="aahjgkjang";
 
+   std::cout<< TestOut(a,b)<<std::endl;
+    TestOut(str);
 
     return 0;
 }

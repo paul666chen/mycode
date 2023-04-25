@@ -20,18 +20,18 @@ int TestOut(int a, int b){
 }
 
 
-int TestOut(int & a){
+// int TestOut(int & a){
 
-    return a=10;
-}
+//     return a=10;
+// }
 
-int TestOut(int & a, int & b)
-{
+// int TestOut(int & a, int & b)
+// {
 
-    return a&b;
+//     return a&b;
 
-}
-std::string TestOutStr(std::string s){
+// }
+void TestOutStr(std::string s){
 
     std::cout<<"Testing string"<<std::endl;
 
