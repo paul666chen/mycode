@@ -8,5 +8,14 @@ void PrintLine(){
 
 }
 
+void TestLine(){
+
+    std::cout<<"--------------"<<std::endl;
+    std::cout<<"This is Line ";
+    std::cout<<std::endl;
+    std::cout<<"--------------"<<std::endl;
+}
+
+
 
 
