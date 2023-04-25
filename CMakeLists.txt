@@ -6,6 +6,8 @@ set(CMAKE_CXX_COMPILE "g++")
 set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
-include_directories(inlcude)
+include_directories(inlcude src)
 
-add_executable(main.exe main.cpp test.cpp util.cpp)
+aux_source_directory(./src SRC)
+
+add_executable(main.exe ${SRC})
