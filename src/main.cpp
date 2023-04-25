@@ -25,8 +25,9 @@ using namespace std;
 
 int main()
 {
-    
+    // 这是一个测试
     PrintLine();
     TestLine();
+    std::cout << "这是一个测试"<<std::endl;
     return 0;
 }
