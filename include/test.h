@@ -2,5 +2,5 @@
 #define _TEST_H
 
 void PrintLine();
-
+void TestLine();
 #endif
