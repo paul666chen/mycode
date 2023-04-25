@@ -27,6 +27,8 @@ int main()
 {
     
     PrintLine();
+    //输出一句话
+ cout <<"my ss "<<endl;
 
     return 0;
 }
