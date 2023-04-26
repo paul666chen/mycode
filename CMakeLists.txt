@@ -9,8 +9,8 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
 
 
-include_directories(inlcude src)
+include_directories(include)
 
-aux_source_directory($(PROJECT_SOURCE_DIR)/src SRC)
+aux_source_directory(src SRC)
 
 add_executable(main.exe ${SRC})
